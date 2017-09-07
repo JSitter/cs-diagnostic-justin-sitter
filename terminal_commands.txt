@@ -1,0 +1,26 @@
+#Change Directory
+cd
+
+#List Items in current directory
+ls
+
+#Print working directory
+pwd
+
+#Create a new file called "cookies.txt"
+touch cookies.txt
+
+#create a new folder called "recipes"
+mkdir recipes
+
+#Delete a file
+rm 
+
+#stage a file in git
+git add file
+
+#commit a file in git
+git commit -m "commit message"
+
+#push the file to the git remot's origin, on the master branch
+git push origin master
