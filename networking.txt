@@ -1,4 +1,23 @@
+##############################
+Problem 3
+#############################
 In order to access a web page your browser will take the url address that was entered in and go to a DNS server to lookup the ip address where the server is located. The browser then sends a request to the server at that IP address. The server will respond hopefully with a code of 200 and begin sending data to the client. Most traffic uses the TCP protocol because there is error handling built into the protocol. The protocol sends packets of data over the wire and can determine the order in which they need to go and whether or not any are missing.
 
 Another protocol that can be used is the UDP protocol. This protocol is useful for data that doesn't need this error handling. The advantage of UDP is that due to the lack of error handling it ends up requiring less overhead and therefore can stream larger amounts of data in a specified time. This is appropriate for things like video and audio streams where missing packets don't matter as much. 
+
+################################
+Problem 4
+################################
+What is the difference between interpreted and compiled languages?
+
+An interpreted language can be read by a languate interpreter. The code remains in a state that is readable by humans and is run as is. A compiled language cannot be run by a program until it is tranlated into a low level machine code that is run directly by the processor. The advantage of comiled languages are that they are run at a lower level and thus have better performance characteristics than your interpreted languages. The disadvantage of compiled languages is that you have to compile for specific processor architectures as opposed to interpreted languages which can run on any processor that has had the interpreter running on it.
+
+Many languages used on the web are interpreted languages and allow for the running of programs across a wide range of systems as opposed to a compiled language which is compiled for only one type of processor.
+
+##############################
+Problem 5
+##############################
+Explain the concept of an algorithm as if you were explaining to a child.
+
+An algorithm is a set of instructions that when followed precisly creates a desired outcome.
 
