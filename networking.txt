@@ -1,0 +1,4 @@
+In order to access a web page your browser will take the url address that was entered in and go to a DNS server to lookup the ip address where the server is located. The browser then sends a request to the server at that IP address. The server will respond hopefully with a code of 200 and begin sending data to the client. Most traffic uses the TCP protocol because there is error handling built into the protocol. The protocol sends packets of data over the wire and can determine the order in which they need to go and whether or not any are missing.
+
+Another protocol that can be used is the UDP protocol. This protocol is useful for data that doesn't need this error handling. The advantage of UDP is that due to the lack of error handling it ends up requiring less overhead and therefore can stream larger amounts of data in a specified time. This is appropriate for things like video and audio streams where missing packets don't matter as much. 
+
